@@ -1,10 +1,12 @@
 *{
+    /*DO NOT TOUCH*/
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
 
 body{
+    /*pick a color that makes you happy :)*/
     background-color: #e05eac;
 }
 
@@ -13,6 +15,8 @@ header{
 }
 
 header h1{
+    /*change to your liking and FYI padding is 
+    the amount of space between elements*/
     font-family: Helvetica;
     font-size: 2em;
     font-weight: 500;
@@ -20,6 +24,97 @@ header h1{
     padding-top: 1em;
 }
 
-footer{
+header h2{
+    padding-top: .25em;
+    /*feel free to change font style and size*/
+}
+
+#mainNoot{
+
+    /*change to your liking*/
+    width: 20%;
+    height: 25%;
+    
+    /*DO NOT TOUCH BOTTOM*/
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#navigation{
+    /*DO NOT TOUCH*/
+    display: flex;
+    justify-content: center;
+}
+
+ul{ /*DO NOT TOUCH*/
+    list-style-type: none;
+    padding-bottom: 1.2em;
+}
+
+ul li a{
+    font-size: 1em;
+    font-family: Helvetica;
+    padding: 1em;
+    text-decoration: none;
+}
+
+#projectSection{
+    /*DO NOT TOUCH*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project{
+    /*DO NOT TOUCH*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.project h3{
+    /*customize below*/
+    font-family: Georgia;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+
+.project img{
+    /*change the gif sizes*/
+    width: 35%;
+    height: 40%;
+}
+
+.project p{
+    /*customize below*/
+    font-family: Georgia;
+    font-size: 1em;
+    padding-top: 1em;
+    /*change spacing between the line*/
+    line-height: 1.2em;
+}
+
+footer{
+    /*DO NOT TOUCH*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+}
+
+footer h4{
+    /*change font size and style for heading*/
+    font-size: 1.5em;
+    font-family: Helvetica;
+}
+
+footer ul li{
+    /*change font size and style for heading*/
+    font-size: 1.2em;
+    font-family: sans-serif;
 }
